@@ -1,0 +1,21 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+  "name": "Hm",
+  "year": 2023,
+  "author": "Penulis Amin",
+  "summary": "Ringkasan Buku A",
+  "publisher": "Penerbit A",
+  "pageCount": 200,
+  "readPage": 100,
+  "reading": true
+}' http://localhost:9000/books
+
+curl -X POST -H "Content-Type: application/json" -d '{
+  "name": HashMicro
+  "year": 2023,
+  "author": "Ricky halim",
+  "summary": "Ringkasan Ceo A",
+  "publisher": "Penerbit A",
+  "pageCount": 199,
+  "readPage": 100,
+  "reading": true
+}' http://localhost:9000/books
